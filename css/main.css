@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  color: #fff;
+  color: #FFF;
   background: #1F1F1F;
   margin: 0;
 }
@@ -41,7 +41,7 @@ article {
   align-items: center;
 }
 img {
-max-width: 100%; /* DO NOT delete or change this line */
+max-width: 100%;
 }
 #duo {
   background: #FFE7D1;
@@ -49,8 +49,15 @@ max-width: 100%; /* DO NOT delete or change this line */
 #bass {
   background: #EBEBEB;
 }
-#synth {
+#synthesizer {
   background: #FDF1E8;
+}
+#synth {
+  display: "none";
+}
+#need {
+  background: #ccc;
+  text-align: center;
 }
 section {
   max-width: 600px;
@@ -67,6 +74,12 @@ section {
   color: #000;
   margin-top: 3rem;
   margin-bottom: 1rem;
+}
+.box, #boxer {
+  background: #F3F3F3;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
 }
 
 a {
