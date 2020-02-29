@@ -51,6 +51,8 @@ max-width: 100%;
 }
 #synthesizer {
   background: #FDF1E8;
+  padding-top: 3em;
+  color: #000;
 }
 #synth {
   display: "none";

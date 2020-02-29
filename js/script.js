@@ -21,6 +21,7 @@ correct.onclick = () => {
 
 //Synthesizer Photo Switch
 let daniel = document.querySelector("#daniel");
+let synth = document.querySelector("#synth");
 
 synth.style.display = "none";
 
@@ -34,7 +35,7 @@ daniel.onmouseover = () => {
   }
 };
 
-daniel.addEventListener.mouseleave = (evt) => {
-  console.log(event)
-  console.log('Event triggered')
-}
+daniel.onmouseleave = () => {
+  daniel.style.display = "block";
+  synth.style.display = "none";
+};
